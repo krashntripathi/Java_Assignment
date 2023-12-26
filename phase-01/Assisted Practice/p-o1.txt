@@ -1,0 +1,18 @@
+1. Writing a program in Java to implement implicit and explicit type casting
+        
+package OnlinePractice1;
+
+public class ImplicitExplicit {
+ public static void main(String[] args) {
+   int intNum = 100;
+   double doubleNum = intNum;
+   System.out.println("Implicit Type Casting");
+   System.out.println("intNumber: " + intNum);
+  System.out.println("doubleNumber: " + doubleNum);
+   double doubleValue = 123.456;
+   int intValue = (int) doubleValue; 
+   System.out.println("\nExplicit Type Casting");
+   System.out.println("doubleValue: " + doubleValue);
+   System.out.println("intValue: " + intValue);
+   }
+  }

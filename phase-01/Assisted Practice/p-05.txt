@@ -1,0 +1,21 @@
+5.Writing a program in Java to verify implementations of collections
+
+package OnlinePractice1;
+
+import java.util.*;
+class Collection {
+public static void main(String args[])
+{
+	 	 //ArrayList
+	 	 ArrayList<String> list = new ArrayList<String>();
+	 	 list.add("tripathi");
+	 	 list.add("23");
+	 	 list.add("software engineering");
+		
+
+	 	 Iterator itr = list.iterator();
+	 	 while (itr.hasNext()) {
+	 	 	 System.out.println(itr.next());
+	 	 }
+}
+}
